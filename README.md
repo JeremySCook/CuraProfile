@@ -1,5 +1,8 @@
+Note that this is not my current (4.2.1) machine settings as of 6/6/2020, currently it's Z170, 
+not Z165 after a firmware upgrade, but other settings should be unchanged.
+
 # CuraProfile
-Cura Profile Moniprice Maker Ultimate V2
+Start/end code for  Moniprice Maker Ultimate V2
 
 
 ;(**** start.gcode for Ultimate2 (150S)****)  
