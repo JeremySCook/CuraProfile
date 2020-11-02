@@ -1,6 +1,3 @@
-Note that this is not my current (4.2.1) machine settings as of 6/6/2020, currently it's Z170, 
-not Z165 after a firmware upgrade, but other settings should be unchanged.
-
 # CuraProfile
 Start/end code for  Moniprice Maker Ultimate V2
 
@@ -8,7 +5,7 @@ Start/end code for  Moniprice Maker Ultimate V2
 ;(**** start.gcode for Ultimate2 (150S)****)  
 M104 S150  
 G28 ; Home extruder  
-G92 X200 Y150 Z165 ;set start position of axes  
+G92 X200 Y150 Z170 ;set start position of axes  
 G29  
 G1 Z15 F100  
 M107 ; Turn off fan  
