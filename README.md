@@ -5,7 +5,7 @@ Start/end code for  Moniprice Maker Ultimate V2
 ;(**** start.gcode for Ultimate2 (150S)****)  
 M104 S150  
 G28 ; Home extruder  
-G92 X200 Y150 Z170 ;set start position of axes  
+G92 X200 Y150 Z170.2 ;set start position of axes (formerly Z170, added .2mm for better bed adhesion
 G29  
 G1 Z15 F100  
 M107 ; Turn off fan  
